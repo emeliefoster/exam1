@@ -9,7 +9,10 @@ View(e)
 colnames(e)
 eggs_corrected1= e[, -c(2:5,8:20,23:28)]
 View(eggs_corrected)
-
+e
+long_degE=(eggs_corrected1$lon_degE)*-1
+head(long_degE)
+eggs_corrected1$lon_degE=long_degE
 write.csv(x=eggs_corrected1,file="C:/Users/Em/Documents/Course Materials/Spring 2021/Data Management/Data/exam 1/exam1_data/eggs_CUFES_fixed1.csv",row.names=F)
 #processing zoop
 #fixing latitude
