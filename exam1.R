@@ -15,6 +15,7 @@ head(long_degE)
 eggs_corrected1$lon_degE=long_degE
 write.csv(x=eggs_corrected1,file="C:/Users/Em/Documents/Course Materials/Spring 2021/Data Management/Data/exam 1/exam1_data/eggs_fixed2.csv",row.names=F)
 #processing zoop
+#fixing coordinates 
 #fixing latitude
 z=read.csv("195101-201404_Zoop.csv")
 colnames(z)
