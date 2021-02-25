@@ -1,0 +1,5 @@
+# of anchovy eggs in 1998= 4227
+# of sardine eggs in 1998= 33796
+# of total eggs in 1998= 38023
+Area of survey done in 1998= 281,298 km^2
+Therefore, they collected 0.135 eggs/km^2 in 1998. 
